@@ -1,0 +1,10 @@
+# An env for building iriclib from source using a static cgns library.
+name: iric
+channels:
+  - default
+  - csdms-stack
+dependencies:
+- python=3.6
+- clangxx_osx-64
+- cmake=2.8
+- cgns=3.2.1
