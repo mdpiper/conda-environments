@@ -1,9 +1,9 @@
-# FaSTMECH
+# An env for building FaSTMECH and its deps from source.
 name: mech
 channels:
   - default
 dependencies:
-- python==3.6
+- python=3.6
 - hdf5==1.8.14
 - clang_osx-64
 - clangxx_osx-64
