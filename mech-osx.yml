@@ -4,7 +4,7 @@ channels:
   - default
 dependencies:
 - python=3.6
-- hdf5==1.8.14
+- hdf5==1.8.20
 - clang_osx-64
 - clangxx_osx-64
 - gfortran_osx-64

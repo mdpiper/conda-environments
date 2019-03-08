@@ -4,7 +4,7 @@ channels:
   - default
 dependencies:
 - python=3.6
-- hdf5==1.8.14
+- hdf5==1.8.20
 - gcc_linux-64
 - gxx_linux-64
 - gfortran_linux-64
