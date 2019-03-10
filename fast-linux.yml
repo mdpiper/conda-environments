@@ -1,0 +1,11 @@
+# Build FaSTMECH from source using conda binaries for cgns and iriclib
+name: fast
+channels:
+  - default
+  - csdms-stack
+dependencies:
+- python=3.6
+- cmake=3.3
+- gfortran_linux-64
+- cgns=3.2.1
+- iriclib==3.0=2
