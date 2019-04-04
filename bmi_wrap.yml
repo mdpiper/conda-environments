@@ -2,8 +2,8 @@
 name: wrap
 channels:
   - defaults
-  - csdms-stack
   - conda-forge
+  - csdms-stack
 dependencies:
 - python=3.6
 - numpy
