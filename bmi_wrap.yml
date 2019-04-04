@@ -7,6 +7,9 @@ channels:
 dependencies:
 - python=3.6
 - numpy
+- cython
+- gcc_linux-64
+- gfortran_linux-64 # not always needed, obvs
 - model_metadata
 - pyyaml
 - jinja2
