@@ -1,0 +1,15 @@
+# An env for installing Dakota on macOS from anaconda.org/csdms-stack/dakota
+name: dkta
+channels:
+  - defaults
+  - conda-forge
+  - csdms-stack
+dependencies:
+  - python =3.6
+  - libgcc
+  - boost-gcc
+  - blas
+  - lapack
+  - perl
+  - openmpi =1.6
+  - dakota
