@@ -1,0 +1,12 @@
+# An env for installing the PBS executor component
+name: pbse
+channels:
+  - csdms-stack
+dependencies:
+  - python =2.7
+  - netcdf4
+  - markdown
+  - pyyaml
+  - basic-modeling-interface
+  - nose
+  - coveralls
