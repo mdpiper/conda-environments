@@ -4,7 +4,7 @@ channels:
   - default
   - csdms-stack
 dependencies:
-- python=3.6
-- gxx_linux-64
-- cmake=2.8
-- cgns=3.2.1
+  - python=3.6
+  - gxx_linux-64
+  - cmake=2.8
+  - cgns=3.2.1

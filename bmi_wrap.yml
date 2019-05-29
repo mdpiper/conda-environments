@@ -1,20 +1,20 @@
 # Create a PyMT component from a BMI-wrapped model.
 name: wrap
 channels:
-  - defaults
   - conda-forge
   - csdms-stack
 dependencies:
-- python=3.6
-- numpy
-- cython
-- gcc_linux-64
-- gfortran_linux-64 # not always needed, obvs
-- model_metadata
-- pyyaml
-- jinja2
-- cookiecutter
-- six
-- bmi_wrap=0.1.3 # supplies bmi-wrap & bmi-render
-- versioneer
-- bmi-tester
+  - python=3.6
+  - numpy
+  - cython
+  - gcc_linux-64
+  - gfortran_linux-64 # not always needed, obvs
+  - model_metadata
+  - pyyaml
+  - jinja2
+  - cookiecutter
+  - six
+  - bmi_wrap=0.1.3 # supplies bmi-wrap & bmi-render
+  - versioneer
+  - bmi-tester
+  - pymt
