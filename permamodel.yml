@@ -1,0 +1,15 @@
+# Build and test the permamodel components.
+name: prma
+channels:
+  - default
+dependencies:
+  - python =3
+  - affine
+  - netCDF4
+  - scipy
+  - numpy
+  - pyyaml
+  - python-dateutil
+  - pytest
+  - pytest-cov
+  - coveralls
