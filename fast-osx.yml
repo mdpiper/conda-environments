@@ -8,4 +8,4 @@ dependencies:
   - cmake=3.3
   - gfortran_osx-64
   - cgns=3.2.1
-  - iriclib==3.0=2
+  - iriclib=0.1
