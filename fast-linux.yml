@@ -4,8 +4,8 @@ channels:
   - default
   - csdms-stack
 dependencies:
-  - python=3.6
-  - cmake=3.3
+  - python =3
+  - cmake
   - gfortran_linux-64
-  - cgns=3.2.1
-  - iriclib=0.1
+  - cgns =3.2.1
+  - iriclib =0.1
