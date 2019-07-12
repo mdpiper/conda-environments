@@ -1,0 +1,8 @@
+# An env for building GIPL from source on Linux.
+name: gipl
+channels:
+  - default
+dependencies:
+  - python =3
+  - gfortran_linux-64
+  - cmake

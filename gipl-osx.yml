@@ -1,0 +1,8 @@
+# An env for building GIPL from source on macOS.
+name: gipl
+channels:
+  - default
+dependencies:
+  - python =3
+  - gfortran_osx-64
+  - cmake
