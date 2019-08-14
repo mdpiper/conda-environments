@@ -1,0 +1,10 @@
+# An env for re/building a pymt-lab component.
+name: plab
+channels:
+  - conda-forge
+  - csdms-stack # may not be needed
+dependencies:
+  - python =3
+  - conda-build
+  - gfortran_linux-64
+  - pymt
