@@ -1,0 +1,12 @@
+# An env for building FaSTMECH and its deps from source.
+name: mech
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - hdf5=1.8.*
+  - c-compiler
+  - cxx-compiler
+  - fortran-compiler
+  - cmake=3.*
+  - make
