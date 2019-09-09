@@ -1,0 +1,11 @@
+# An env for building PRMS6 from source.
+name: prms
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - libnetcdf
+  - netcdf-fortran
+  - fortran-compiler
+  - cmake
+  - make
