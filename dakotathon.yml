@@ -1,0 +1,15 @@
+# An env for building and testing dakotathon.
+name: thon
+channels:
+  - conda-forge
+  - csdms-stack
+dependencies:
+  - python=3
+  - numpy
+  - pyyaml
+  - bmipy
+  - dakota
+  - hydrotrend
+  - nose
+  - coveralls
+
