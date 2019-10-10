@@ -1,0 +1,8 @@
+# Build GIPL from source on Linux, macOS, and Windows.
+name: gipl
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - fortran-compiler
+  - cmake
