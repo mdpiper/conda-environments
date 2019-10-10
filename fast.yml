@@ -6,6 +6,6 @@ channels:
 dependencies:
   - python =3
   - cmake
-  - gfortran_linux-64
+  - fortran-compiler
   - cgns =3.2.1
   - iriclib =0.1
