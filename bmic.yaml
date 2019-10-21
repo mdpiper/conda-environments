@@ -1,0 +1,9 @@
+# Build the C BMI and example
+name: bmic
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - cmake
+  - c-compiler
+  - pkg-config
