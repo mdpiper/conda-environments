@@ -1,0 +1,11 @@
+# Build Nays2DFlood from source using conda binaries for cgns and iriclib
+name: nays
+channels:
+  - conda-forge
+  - csdms-stack
+dependencies:
+  - python =3
+  - cmake
+  - fortran-compiler
+  - cgns =3.2.1
+  - iriclib =0.1
