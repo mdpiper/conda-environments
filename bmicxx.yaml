@@ -1,0 +1,10 @@
+# Build the C++ BMI bindgins and example
+name: bmicxx
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - cmake
+  - c-compiler
+  - cxx-compiler
+  - pkg-config

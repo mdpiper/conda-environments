@@ -1,0 +1,8 @@
+# Build the Fortran BMI bindings and example
+name: bmif
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - cmake
+  - fortran-compiler
