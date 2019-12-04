@@ -1,0 +1,17 @@
+# Use pymt and all of its components + Jupyter Notebook.
+name: pymt
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - notebook
+  - pymt
+  - pymt_cem
+  - pymt_child
+  - pymt_ecsimplesnow
+  - pymt_gipl
+  - pymt_hydrotrend
+  - pymt_landlab
+  - pymt_permamodel
+  - pymt_rafem
+  - pymt_sedflux
