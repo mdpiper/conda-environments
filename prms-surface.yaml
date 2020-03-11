@@ -1,0 +1,23 @@
+# An env for testing PRMSSurface on Linux and macOS.
+#
+# Note the channel order: I'm using a one-off, between-release version
+# of pymt deployed on the csdms-stack channel; therefore, this channel
+# is listed before conda-forge. I also had to ensure, through
+# versioning, that udunits, scripting, and model_metadata are pulled
+# from conda-forge, not csdms-stack.
+
+name: surface
+channels:
+  - csdms-stack
+  - conda-forge
+dependencies:
+  - python =3
+  - udunits2 >=2.2.27
+  - scripting >=0.2.4
+  - model_metadata =0.6
+  - pymt >1.1
+  - coretran
+  - prms
+  - prms_surface
+  - pymt_prms_surface
+  - notebook
