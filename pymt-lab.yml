@@ -1,11 +1,17 @@
 # An env for re/building a pymt-lab component.
+#
+# 1. Create this env
+# 2. Install requirements.txt from component
+# 3. Build component with `make install`
+# 4. Optionally (but usually) install pymt to run examples
+
 name: plab
 channels:
   - conda-forge
-  - csdms-stack # may not be needed
+  - csdms-stack  # mayn't be needed
 dependencies:
   - python =3
   - conda-build
   - fortran-compiler
   - c-compiler
-  - pymt
+
