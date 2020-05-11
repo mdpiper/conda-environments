@@ -1,0 +1,20 @@
+# An env for testing PRMS components in Python.
+
+name: pyprms
+channels:
+  - conda-forge
+  - csdms-stack
+dependencies:
+  - cmake
+  - fortran-compiler
+  - python =3
+  - pymt >=1.1
+  - coretran
+  - prms
+  - prms_surface  # build locally to overwrite this package
+  - prms_soil     # build locally to overwrite this package
+  - pymt_prms_surface
+  - pymt_prms_soil
+  - pytest
+  - bmi-tester
+  - notebook
