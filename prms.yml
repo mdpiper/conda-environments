@@ -11,4 +11,3 @@ dependencies:
   - cmake
   - make
   - coretran
-  - prms
