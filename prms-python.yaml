@@ -5,16 +5,18 @@ channels:
   - conda-forge
   - csdms-stack
 dependencies:
-  - cmake
-  - fortran-compiler
   - python =3
   - pymt >=1.1
   - coretran
   - prms
-  - prms_surface  # build locally to overwrite this package
-  - prms_soil     # build locally to overwrite this package
+  - prms_surface
+  - prms_soil
+  - prms_groundwater
+  - prms_streamflow
   - pymt_prms_surface
   - pymt_prms_soil
+  - pymt_prms_groundwater
+  - pymt_prms_streamflow
   - pytest
   - bmi-tester
   - notebook
