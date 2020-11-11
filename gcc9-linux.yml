@@ -1,9 +1,9 @@
-# Build with gcc/gfortran 9.3.
+# Build with gcc/gfortran 9.3 on Linux.
 name: gcc9
 channels:
   - conda-forge
 dependencies:
   - python =3
-  - gfortran_osx-64 =9.3
+  - gfortran_linux-64 =9.3
   - cmake
   - make
