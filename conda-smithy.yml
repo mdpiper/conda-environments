@@ -1,0 +1,9 @@
+# Build and test conda-forge packages locally.
+name: smithy
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - conda-smithy
+  - cmake
+  - make
