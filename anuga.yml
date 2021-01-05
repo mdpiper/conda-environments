@@ -1,10 +1,11 @@
 # Dependencies for building anuga with py3.
-# See instructions here: https://github.com/GeoscienceAustralia/anuga_core/wiki/Install-ANUGA-on-Ubuntu-(using-Miniconda)
+# Build instructions: https://github.com/GeoscienceAustralia/anuga_core/wiki/Install-ANUGA-on-Ubuntu-(using-Miniconda)
+# Be sure to switch to the `anuga_py3` branch before building.
 name: anuga
 channels:
   - conda-forge
 dependencies:
-  - python =3
+  - python =3.8
   - git
   - pip
   - nose
@@ -19,4 +20,4 @@ dependencies:
   - openmp
   - mpi4py
   - gitpython
-  - cxx-compiler
+  - cxx-compiler  # anuga has extensions
