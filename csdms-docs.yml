@@ -1,7 +1,8 @@
-# Build BMI and pymt docs with sphinx.
+# Build docs for various CSDMS projects with sphinx.
 name: docs
 channels:
   - conda-forge
 dependencies:
   - python =3
   - sphinx >=1.5.1
+  - nox
