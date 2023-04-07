@@ -4,5 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - python =3
-  - sphinx >=1.5.1
-  - nox
+  - sphinx
+  - pip:
+    - nox
