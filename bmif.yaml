@@ -4,5 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - python =3
+  - make
   - cmake
   - fortran-compiler
