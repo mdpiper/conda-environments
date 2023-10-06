@@ -1,0 +1,16 @@
+# An env for re/building a Fortran pymt-lab component with Meson.
+name: fbld
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - pip
+  - make
+  - cmake
+  - fortran-compiler
+  - c-compiler
+  - cython
+  - meson-python
+  - numpy
+  - ipython
+  - pymt
