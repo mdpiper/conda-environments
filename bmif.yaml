@@ -7,3 +7,5 @@ dependencies:
   - make
   - cmake
   - fortran-compiler
+  # - cxx-compiler  # [win]
+  # - vs2019_win-64  # [win]
