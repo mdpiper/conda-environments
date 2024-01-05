@@ -1,0 +1,10 @@
+# A conda environment with grpc4bmi
+name: grpc4bmi
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - pip
+  - bmipy
+  - pip:
+    - grpc4bmi
