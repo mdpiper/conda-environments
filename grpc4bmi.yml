@@ -1,5 +1,5 @@
 # A conda environment with grpc4bmi
-name: grpc4bmi
+name: grpc
 channels:
   - conda-forge
 dependencies:
