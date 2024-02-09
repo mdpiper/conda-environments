@@ -1,0 +1,8 @@
+# An env for running slides through reveal-md, https://github.com/webpro/reveal-md
+name: reveal
+channels:
+  - conda-forge
+dependencies:
+  - nodejs
+
+# npm install -g reveal-md
