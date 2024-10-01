@@ -1,18 +1,10 @@
-# Use pymt and all of its components + Jupyter Notebook.
+# Set up dependencies used to build pymt.
 name: pdev
 channels:
-  - conda-forge/label/dev
   - conda-forge
 dependencies:
-  - python =3
-  - notebook
-  - pymt
-  - pymt_cem
-  - pymt_child
-  - pymt_ecsimplesnow
-  - pymt_gipl
-  - pymt_hydrotrend
-  # - pymt_landlab
-  - pymt_permamodel
-  - pymt_rafem
-  - pymt_sedflux
+  - python=3
+  - gimli.units>=0.3.2
+  - landlab>=2.8
+  - model_metadata
+  - shapely<2  # see #164
