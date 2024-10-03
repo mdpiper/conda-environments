@@ -1,10 +1,18 @@
-# Set up dependencies used to build pymt.
+# Set up an environment with dependencies to build and test pymt.
 name: pdev
 channels:
   - conda-forge
 dependencies:
   - python=3
+  - deprecated
   - gimli.units>=0.3.2
+  - h5netcdf
   - landlab>=2.8
   - model_metadata
+  - pytest
+  - pytest-benchmark
+  - pytest-cov
+  - pytest-datadir
+  - pytest-mypy
+  - scipy<1.9  # see #162
   - shapely<2  # see #164
