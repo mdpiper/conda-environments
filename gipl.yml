@@ -8,4 +8,4 @@ dependencies:
   - pkg-config
   - cmake
   - make
-  - bmi-fortran
+  - bmi-fortran =1.2.1
