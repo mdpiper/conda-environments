@@ -1,0 +1,7 @@
+# An environment for developing with R.
+name: R
+channels:
+  - conda-forge
+dependencies:
+  - r-base
+  - r-essentials
