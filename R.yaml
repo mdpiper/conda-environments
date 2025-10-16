@@ -5,3 +5,4 @@ channels:
 dependencies:
   - r-base
   - r-essentials
+  - r-devtools
