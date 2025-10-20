@@ -6,6 +6,7 @@ dependencies:
   - python =3
   - make
   - cmake
+  - ninja
   - pkg-config
   - fortran-compiler
   # - cxx-compiler  # [win]
