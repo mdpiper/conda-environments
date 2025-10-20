@@ -8,10 +8,8 @@
 name: plab
 channels:
   - conda-forge
-  - csdms-stack  # mayn't be needed
 dependencies:
-  - python =3
-  - conda-build
+  - python =3.11
+  - setuptools<60.0
   - fortran-compiler
   - c-compiler
-
